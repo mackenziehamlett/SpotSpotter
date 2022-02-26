@@ -1,0 +1,3 @@
+# SpotSpotter
+
+spot the spot
