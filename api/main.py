@@ -12,7 +12,7 @@ app = FastAPI()
 
 
 @app.post("/checkFile/")
-async def create_upload_file(file: UploadFile):
+async def checkFile(file: UploadFile):
     # todo use the model/algorithms to solve stuff
     return {"filename": file.filename}
 
