@@ -41,7 +41,7 @@ def is_contour_bad(c):
 
     return not len(approx) == 4
 
-# Detects potential cars based on how circular it is
+# Detects potential cars based on how circular it is, returns boolean
 def vehicle_detector_contour(contour_length, contour_area):
     return ((contour_length**2)/ contour_area) <= 20 # to roughly circular, like a car, adjust the value as needed
 
